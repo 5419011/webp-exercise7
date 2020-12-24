@@ -120,7 +120,7 @@ EvilCircle.prototype.checkBounds = function () {
 };
 
 EvilCircle.prototype.setControls = function () {
-    var _this = this;
+    let _this = this;
     window.onkeydown = function (e) {
         if (e.key === 'a') {
             _this.x -= _this.velX;
